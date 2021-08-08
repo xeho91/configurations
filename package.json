@@ -17,7 +17,8 @@
   },
   "scripts": {
   },
-  "devDependencies": {
+	"devDependencies": {
+		"gacp": "^2.10.2",
     "syncpack": "^5.8.15"
-  }
+	}
 }
