@@ -18,6 +18,7 @@
 	"scripts": {
     "build": "tsc",
 		"commit": "gacp",
+		"format": "prettier --write \"source/*/**\"",
 		"lint": "run-p lint:*",
 		"lint:commits": "commitlint --from \"develop\" --to \"HEAD\"",
 		"lint:ls": "ls-lint",
@@ -31,6 +32,7 @@
 		"@types/node": "^16.4.13",
 		"@xeho91/commitlint-config": "^0.1.0",
 		"@xeho91/eslint-config": "^0.6.0",
+		"@xeho91/prettier-config": "^0.2.0",
 		"commitlint": "^13.1.0",
 		"eslint": "^7.32.0",
 		"gacp": "^2.10.2",

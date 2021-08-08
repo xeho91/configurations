@@ -153,6 +153,15 @@ _(developing)_ for this project.
 
    Read more about this script in the [`pnpm lint`](#pnpm-lint) section.
 
+1. **Format the code** if your IDE _(Integrated Development Environment)_ - a
+   code editor didn't do it already, using the following command:
+
+   ```sh
+   pnpm format
+   ```
+
+   Read more about this script in the [`pnpm format`](#pnpm-format) section.
+
 1. When your changes are ready, **push the branch to a remote repo** with the
    following git command:
 
@@ -238,6 +247,7 @@ The following scripts are available for this project:
 
 - [`pnpm build`](#pnpm-build)
 - [`pnpm commit`](#pnpm-commit)
+- [`pnpm format`](#pnpm-format)
 - [`pnpm lint`](#pnpm-lint)
   - [`pnpm lint:commits`](#pnpm-lintcommits)
   - [`pnpm lint:js`](#pnpm-lintjs)
@@ -261,6 +271,14 @@ The [TypeScript] configuration is in the [tsconfig.json](./tsconfig.json) file.
 Node.js package.
 
 The [gacp] configuration is in the [.gacprc.js](./.gacprc.js) file.
+
+### `pnpm format`
+
+**Formats the source code files** using [Prettier] formatter.
+
+The [Prettier] configuration is in the [.prettierrc.js](./.prettierrc.js) file.
+
+[Prettier]: https://prettier.io/
 
 ### `pnpm lint`
 
