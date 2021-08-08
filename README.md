@@ -15,6 +15,7 @@ upgrading dependencies, etc.
 - [Getting started](#-getting-started)
 - [Packages](#-packages)
 - [Feedback](#-feedback)
+- [Security Policy](#-security-policy)
 - [License](#-license)
 - [Contact](#-contact)
 
@@ -79,6 +80,13 @@ the effort. You can also provide a link to a resource to learn more about it to
 save your time.
 
 [open an issue]: https://github.com/xeho91/configurations/issues/new
+
+---
+
+## 🔒 Security Policy
+
+For more information about the Security Policy, take a look at the
+[SECURITY.md](./SECURITY.md) file.
 
 ---
 
