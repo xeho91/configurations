@@ -219,6 +219,7 @@ The following scripts are available for this project:
 - [`pnpm commit`](#pnpm-commit)
 - [`pnpm lint`](#pnpm-lint)
   - [`pnpm lint:commits`](#pnpm-lintcommits)
+  - [`pnpm lint:js`](#pnpm-lintjs)
   - [`pnpm lint:ls`](#pnpm-lintls)
 
 ### `pnpm commit`
@@ -244,6 +245,17 @@ The [commitlint] configuration is in the [.commitlintrc.js](./.commitlintrc.js)
 file.
 
 [commitlint]: https://commitlint.js.org/#/
+
+#### `pnpm lint:js`
+
+Statically **analyzes the [JavaScript]/[TypeScript] source code** with
+[ESLint] to quickly find problems.\
+
+The [ESLint] configuration is in the [.eslintrc.js](./.eslintrc.js) file.
+
+[JavaScript]: https://developer.mozilla.org/en-US/docs/Web/javascript
+[TypeScript]: https://www.typescriptlang.org/
+[ESLint]: https://eslint.org/
 
 #### `pnpm lint:ls`
 
