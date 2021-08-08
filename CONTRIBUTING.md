@@ -10,6 +10,7 @@ _(developing)_ for this project.
 - [Git setup](#git-setup)
   - [Git commits convention](#git-commits-convention)
   - [Writing commit messages](#writing-commit-messages)
+  - [Git hooks](#git-hooks)
 - [Scripts](#scripts)
 
 ---
@@ -205,6 +206,25 @@ section.
 
 [gacp]: https://github.com/vivaxy/gacp
 
+### Git hooks
+
+There are Git hooks configured with the [Husky] tool.\
+They should be installed automatically during the `pnpm install` process. In
+case they didn't, use the following command:
+
+```sh
+pnpm prepare
+```
+
+Existing hooks:
+
+- **pre-commit** - will analyze all of staged file _(code)_ changes with the
+  [`pnpm lint:staged`](#pnpm-lintstaged) script.
+- **commit-msg** - will ensure the provided commit message follows the set [Git
+  commits convention](#git-commits-convention).
+
+[Husky]: https://typicode.github.io/husky
+
 ---
 
 ## 🧰 Scripts
@@ -224,6 +244,7 @@ The following scripts are available for this project:
   - [`pnpm lint:ls`](#pnpm-lintls)
   - [`pnpm lint:staged`](#pnpm-lintstaged)
   - [`pnpm lint:ts`](#pnpm-lintts)
+- [`pnpm prepare`](#pnpm-prepare)
 
 ### `pnpm build`
 
@@ -293,3 +314,13 @@ The [lint-staged] configuration is in the
 compiler.
 
 The [TypeScript] configuration is in the [tsconfig.json](./tsconfig.json) file.
+
+### `pnpm prepare`
+
+**Installs the Git hooks** with [Husky]. Should be run only once, when cloning
+the project and developing.
+
+This script should run automatically only once - during the `pnpm install`.
+After that, there's no need to use it.
+
+The [Husky] hooks are configured in the [.husky/](./.husky) directory.
