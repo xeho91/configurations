@@ -18,9 +18,11 @@
 	"scripts": {
 		"commit": "gacp",
 		"lint": "run-p lint:*",
-		"lint:commits": "commitlint --from \"develop\" --to \"HEAD\""
+		"lint:commits": "commitlint --from \"develop\" --to \"HEAD\"",
+		"lint:ls": "ls-lint"
 	},
 	"devDependencies": {
+		"@ls-lint/ls-lint": "^1.10.0",
 		"@xeho91/commitlint-config": "^0.1.0",
 		"commitlint": "^13.1.0",
 		"gacp": "^2.10.2",
