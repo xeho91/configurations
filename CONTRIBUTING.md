@@ -218,6 +218,7 @@ The following scripts are available for this project:
 
 - [`pnpm commit`](#pnpm-commit)
 - [`pnpm lint`](#pnpm-lint)
+  - [`pnpm lint:commits`](#pnpm-lintcommits)
 
 ### `pnpm commit`
 
@@ -232,3 +233,13 @@ The [gacp] configuration is in the [.gacprc.js](./.gacprc.js) file.
 It uses the [npm-run-all] Node.js package.
 
 [npm-run-all]: https://github.com/mysticatea/npm-run-all
+
+#### `pnpm lint:commits`
+
+**Analyzes the latest commit messages from the develop branch to latest**, in
+order to adhere to set commit convention with [commitlint].
+
+The [commitlint] configuration is in the [.commitlintrc.js](./.commitlintrc.js)
+file.
+
+[commitlint]: https://commitlint.js.org/#/
