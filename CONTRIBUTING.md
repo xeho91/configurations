@@ -222,6 +222,7 @@ The following scripts are available for this project:
   - [`pnpm lint:commits`](#pnpm-lintcommits)
   - [`pnpm lint:js`](#pnpm-lintjs)
   - [`pnpm lint:ls`](#pnpm-lintls)
+  - [`pnpm lint:staged`](#pnpm-lintstaged)
   - [`pnpm lint:ts`](#pnpm-lintts)
 
 ### `pnpm build`
@@ -275,6 +276,16 @@ extension with [ls-lint].
 The [ls-lint] configuration is in the [.ls-lint.yml](./.ls-lint.yml) file.
 
 [ls-lint]: https://ls-lint.org/
+
+#### `pnpm lint:staged`
+
+**Runs the linters on the files in the Git staging area** with a [lint-staged]
+Node.js package.
+
+The [lint-staged] configuration is in the
+[.lintstagedrc.js](./.lintstagedrc.js) file.
+
+[lint-staged]: https://github.com/okonet/lint-staged
 
 #### `pnpm lint:ts`
 
