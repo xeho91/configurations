@@ -15,6 +15,7 @@ upgrading dependencies, etc.
 - [Getting started](#-getting-started)
 - [Packages](#-packages)
 - [Feedback](#-feedback)
+- [License](#-license)
 - [Contact](#-contact)
 
 ---
@@ -78,6 +79,16 @@ the effort. You can also provide a link to a resource to learn more about it to
 save your time.
 
 [open an issue]: https://github.com/xeho91/configurations/issues/new
+
+---
+
+## ⚖️ License
+
+[![License shield]](./LICENSE "Project's license")
+
+**The code** is licensed under the [MIT license](./LICENSE).
+
+[License shield]: https://img.shields.io/github/license/xeho91/configurations?style=for-the-badge
 
 ---
 
