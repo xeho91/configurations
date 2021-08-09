@@ -143,6 +143,15 @@ _(developing)_ for this project.
    convention](#git-commits-convention), and [writing commit
    messages](writing-commit-messages).
 
+1. **Analyze** _(use linters)_ **the changes using available commands**, such
+   as:
+
+   ```sh
+   pnpm lint
+   ```
+
+   Read more about this script in the [`pnpm lint`](#pnpm-lint) section.
+
 1. When your changes are ready, **push the branch to a remote repo** with the
    following git command:
 
@@ -208,6 +217,7 @@ section.
 The following scripts are available for this project:
 
 - [`pnpm commit`](#pnpm-commit)
+- [`pnpm lint`](#pnpm-lint)
 
 ### `pnpm commit`
 
@@ -215,3 +225,10 @@ The following scripts are available for this project:
 Node.js package.
 
 The [gacp] configuration is in the [.gacprc.js](./.gacprc.js) file.
+
+### `pnpm lint`
+
+**Runs all of the set linting scripts in parallel**.\
+It uses the [npm-run-all] Node.js package.
+
+[npm-run-all]: https://github.com/mysticatea/npm-run-all
