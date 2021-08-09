@@ -16,20 +16,26 @@
     "node": ">=14"
   },
 	"scripts": {
+    "build": "tsc",
 		"commit": "gacp",
 		"lint": "run-p lint:*",
 		"lint:commits": "commitlint --from \"develop\" --to \"HEAD\"",
 		"lint:ls": "ls-lint",
-		"lint:js": "eslint \"source/**/*.{js,cjs,mjs,ts}\""
+		"lint:js": "eslint \"source/**/*.{js,cjs,mjs,ts}\"",
+		"lint:ts": "tsc --project \"tsconfig.json\" --noEmit"
 	},
 	"devDependencies": {
 		"@ls-lint/ls-lint": "^1.10.0",
+		"@types/node": "^16.4.13",
 		"@xeho91/commitlint-config": "^0.1.0",
 		"@xeho91/eslint-config": "^0.6.0",
 		"commitlint": "^13.1.0",
 		"eslint": "^7.32.0",
 		"gacp": "^2.10.2",
 		"npm-run-all": "^4.1.5",
-    "syncpack": "^5.8.15"
+    "syncpack": "^5.8.15",
+		"prettier": "^2.3.2",
+		"tslib": "^2.3.0",
+		"typescript": "^4.3.5"
 	}
 }

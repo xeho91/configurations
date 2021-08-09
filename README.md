@@ -45,6 +45,14 @@ As JavaScript runtime for this project development.
 [Node.js]: https://nodejs.org/en/
 [Node.js logomark]: https://api.iconify.design/simple-icons:nodejs.svg "Node.js logomark"
 
+### ![TypeScript logomark] [TypeScript]
+
+As the primary programming language because it offers fantastic developer
+experience thanks to its toolings, typings and helps find possible bugs.
+
+[TypeScript]: https://www.typescriptlang.org/
+[TypeScript logomark]: https://api.iconify.design/simple-icons:typescript.svg "TypeScript logomark"
+
 ---
 
 ## ⚓ Prerequisites

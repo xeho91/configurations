@@ -216,11 +216,22 @@ section.
 
 The following scripts are available for this project:
 
+- [`pnpm build`](#pnpm-build)
 - [`pnpm commit`](#pnpm-commit)
 - [`pnpm lint`](#pnpm-lint)
   - [`pnpm lint:commits`](#pnpm-lintcommits)
   - [`pnpm lint:js`](#pnpm-lintjs)
   - [`pnpm lint:ls`](#pnpm-lintls)
+  - [`pnpm lint:ts`](#pnpm-lintts)
+
+### `pnpm build`
+
+**Builds the output for the production** into [`dist/`](./dist) directory using
+[TypeScript].\
+
+The [TypeScript] configuration is in the [tsconfig.json](./tsconfig.json) file.
+
+[TypeScript]: https://www.typescriptlang.org/
 
 ### `pnpm commit`
 
@@ -254,7 +265,6 @@ Statically **analyzes the [JavaScript]/[TypeScript] source code** with
 The [ESLint] configuration is in the [.eslintrc.js](./.eslintrc.js) file.
 
 [JavaScript]: https://developer.mozilla.org/en-US/docs/Web/javascript
-[TypeScript]: https://www.typescriptlang.org/
 [ESLint]: https://eslint.org/
 
 #### `pnpm lint:ls`
@@ -265,3 +275,10 @@ extension with [ls-lint].
 The [ls-lint] configuration is in the [.ls-lint.yml](./.ls-lint.yml) file.
 
 [ls-lint]: https://ls-lint.org/
+
+#### `pnpm lint:ts`
+
+**Starts type checking all kinds of JavaScript code files** with [TypeScript]
+compiler.
+
+The [TypeScript] configuration is in the [tsconfig.json](./tsconfig.json) file.

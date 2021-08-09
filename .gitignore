@@ -1,5 +1,8 @@
 # ============== Folders ==============
 
+# Built output(s) with TypeScript
+dist/
+
 # Node.js packages (dependencies), which can be installed
 node_modules/
 
