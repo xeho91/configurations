@@ -14,6 +14,7 @@ upgrading dependencies, etc.
 - [Prerequisites](#-prerequisites)
 - [Getting started](#-getting-started)
 - [Packages](#-packages)
+- [Contributing](#-contributing)
 - [Feedback](#-feedback)
 - [Security Policy](#-security-policy)
 - [License](#-license)
@@ -66,6 +67,13 @@ you please mind sharing? Thank you!
 
 | Package name | version | Package size | Dependencies status |
 | ------------ | ------- | ------------ | ------------------- |
+
+---
+
+## ⚙️ Contributing
+
+Please take a look at the [CONTRIBUTING.md](./CONTRIBUTING.md) file, where the
+development flow is explained and thoroughly described.
 
 ---
 
