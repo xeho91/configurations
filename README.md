@@ -38,31 +38,36 @@ As a core version control tool, because it can be used with [GitHub] or
 [GitHub]: https://github.com/
 [GitLab]: https://gitlab.com/
 
+### ![Node.js logomark] [Node.js]
+
+As JavaScript runtime for this project development.
+
+[Node.js]: https://nodejs.org/en/
+[Node.js logomark]: https://api.iconify.design/simple-icons:nodejs.svg "Node.js logomark"
+
 ---
 
 ## ⚓ Prerequisites
+
+[![Dependencies shield]][Dependencies URL]
 
 This project requires these tools to be able to run it locally on your device
 and develop.
 
 1. [Git] version control tool to be installed.
 
----
+1. Latest [Node.js] LTS _(Long-Term Support)_ version.
 
-## 🏁 Getting started
+1. [pnpm] - as Node.js package manager.\
+   Other package managers such as [npm] or [yarn] may work; however this
+   project setup is optimized for `pnpm`.
 
-![Repository size][Repository size shield]
+[Dependencies shield]: https://img.shields.io/librariesio/github/xeho91/configurations?style=for-the-badge
+[Dependencies URL]: https://libraries.io/github/xeho91/configurations "Dependencies status"
 
-The following steps are supposed to help you run this project locally _(on
-your current device on your network)_.
-
-1. **Clone this project** with [Git] using the following command:
-
-   ```sh
-   git clone https://github.com/xeho91/project-template.git
-   ```
-
-[Repository size shield]: https://img.shields.io/github/repo-size/xeho91/personal-website?style=for-the-badge
+[pnpm]: https://pnpm.io/
+[npm]: https://www.npmjs.com/
+[yarn]: https://yarnpkg.com/
 
 ---
 

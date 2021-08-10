@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "private": true,
+  "name": "configurations",
+  "version": "0.0.0-development",
+  "author": {
+    "name": "Mateusz Kadlubowski",
+    "email": "xeho91@pm.me",
+    "url": "https://xeho91.com/"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/xeho91/configurations",
+  "repository": "xeho91/configurations.git",
+  "bugs": "https://github.com/xeho91/configurations/issues",
+  "engines": {
+    "node": ">=14"
+  },
+	"scripts": {
+	},
+	"devDependencies": {
+	}
+}
