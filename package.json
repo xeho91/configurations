@@ -15,8 +15,9 @@
   "engines": {
     "node": ">=14"
   },
-	"scripts": {
-	},
-	"devDependencies": {
-	}
+  "scripts": {
+  },
+  "devDependencies": {
+    "syncpack": "^5.8.15"
+  }
 }

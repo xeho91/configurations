@@ -1,0 +1,42 @@
+const config = {
+	dev: true,
+	filter: ".",
+	indent: "  ",
+	peer: true,
+	prod: true,
+	semverRange: "^",
+	sortAz: [
+		"scripts",
+		"engines",
+		"files",
+		"peerDependencies",
+		"dependencies",
+		"devDependencies",
+	],
+	sortFirst: [
+		"$schema",
+		"private",
+		"publishConfig",
+		"name",
+		"version",
+		"description",
+		"keywords",
+		"author",
+		"license",
+		"homepage",
+		"repository",
+		"bugs",
+		"engines",
+		"main",
+		"files",
+		"peerDependencies",
+		"dependencies",
+		"devDependencies",
+		"scripts",
+	],
+	source: ["package.json", "packages/*/package.json"],
+	versionGroups: [],
+};
+
+// eslint-disable-next-line unicorn/prefer-module
+module.exports = config;
