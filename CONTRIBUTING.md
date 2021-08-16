@@ -246,6 +246,7 @@ Existing hooks:
 The following scripts are available for this project:
 
 - [`pnpm build`](#pnpm-build)
+- [`pnpm clean`](#pnpm-clean)
 - [`pnpm commit`](#pnpm-commit)
 - [`pnpm format`](#pnpm-format)
 - [`pnpm lint`](#pnpm-lint)
@@ -264,6 +265,17 @@ The following scripts are available for this project:
 The [TypeScript] configuration is in the [tsconfig.json](./tsconfig.json) file.
 
 [TypeScript]: https://www.typescriptlang.org/
+
+### `pnpm clean`
+
+**Cleans the built outputs**. It removes these directories:
+
+- `dist/` _(output from the production environment)_
+- `.cache/` _(output from the development environment)_
+
+It uses the [rimraf] Node.js package to prevent cross-platform issues.
+
+[rimraf]: https://github.com/isaacs/rimraf
 
 ### `pnpm commit`
 
