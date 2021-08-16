@@ -1,22 +1,22 @@
 {
-  "$schema": "https://json.schemastore.org/package",
-  "private": true,
-  "name": "configurations",
-  "version": "0.0.0-development",
-  "author": {
-    "name": "Mateusz Kadlubowski",
-    "email": "xeho91@pm.me",
-    "url": "https://xeho91.com/"
-  },
-  "license": "MIT",
-  "homepage": "https://github.com/xeho91/configurations",
-  "repository": "xeho91/configurations.git",
-  "bugs": "https://github.com/xeho91/configurations/issues",
-  "engines": {
-    "node": ">=14"
-  },
+	"$schema": "https://json.schemastore.org/package",
+	"private": true,
+	"name": "configurations",
+	"version": "0.0.0-development",
+	"author": {
+		"name": "Mateusz Kadlubowski",
+		"email": "xeho91@pm.me",
+		"url": "https://xeho91.com/"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/xeho91/configurations",
+	"repository": "xeho91/configurations.git",
+	"bugs": "https://github.com/xeho91/configurations/issues",
+	"engines": {
+		"node": ">=14"
+	},
 	"scripts": {
-    "build": "tsc",
+		"build": "tsc",
 		"commit": "gacp",
 		"format": "prettier --write \"source/*/**\"",
 		"lint": "run-p lint:*",
@@ -25,10 +25,13 @@
 		"lint:js": "eslint \"source/**/*.{js,cjs,mjs,ts}\"",
 		"lint:staged": "lint-staged --verbose",
 		"lint:ts": "tsc --project \"tsconfig.json\" --noEmit",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"release": "semantic-release"
 	},
 	"devDependencies": {
 		"@ls-lint/ls-lint": "^1.10.0",
+		"@semantic-release/changelog": "^5.0.1",
+		"@semantic-release/git": "^9.0.0",
 		"@types/node": "^16.4.13",
 		"@xeho91/commitlint-config": "^0.1.0",
 		"@xeho91/eslint-config": "^0.6.0",
@@ -41,6 +44,7 @@
 		"npm-run-all": "^4.1.5",
 		"prettier": "^2.3.2",
 		"rimraf": "^3.0.2",
+		"semantic-release": "^17.4.4",
 		"syncpack": "^5.8.15",
 		"tslib": "^2.3.0",
 		"typescript": "^4.3.5"

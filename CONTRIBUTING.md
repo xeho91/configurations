@@ -12,6 +12,7 @@ _(developing)_ for this project.
   - [Writing commit messages](#writing-commit-messages)
   - [Git hooks](#git-hooks)
 - [Scripts](#scripts)
+- [Publishing packages](#-publishing-packages)
 
 ---
 
@@ -256,6 +257,7 @@ The following scripts are available for this project:
   - [`pnpm lint:staged`](#pnpm-lintstaged)
   - [`pnpm lint:ts`](#pnpm-lintts)
 - [`pnpm prepare`](#pnpm-prepare)
+- [`pnpm release`](#pnpm-release)
 
 ### `pnpm build`
 
@@ -354,3 +356,37 @@ This script should run automatically only once - during the `pnpm install`.
 After that, there's no need to use it.
 
 The [Husky] hooks are configured in the [.husky/](./.husky) directory.
+
+### `pnpm release`
+
+**Starts the automated workflow for releasing the package**. It uses [Semantic
+Release].
+
+The [Semantic Release] configuration is in the
+[release.config.js](./release.config.js) file.
+
+[Semantic Release]: https://github.com/semantic-release/semantic-release
+
+---
+
+## 📦 Publishing packages
+
+[![Semantic Release shield]][Semantic Release]
+
+**The [Semantic Release] is being used to automate package(s) releasing
+workflow**, including:
+
+- determining the next version number,
+- generating the release notes,
+- and publishing the package.
+
+Use the following command to run it:
+
+```sh
+pnpm release
+```
+
+More info about this script is available in the [`pnpm release`](#pnpm-release)
+section.
+
+[Semantic Release shield]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=for-the-badge
