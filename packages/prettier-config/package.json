@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "publishConfig": {
+    "registry": " https://registry.npmjs.org",
+    "access": "public"
+  },
+  "name": "@xeho91/prettier-config",
+  "version": "1.0.0",
+  "description": "xeho91's Prettier extendable configuration.",
+  "keywords": [
+    "config",
+    "formatter",
+    "prettier"
+  ],
+  "author": {
+    "name": "Mateusz Kadlubowski",
+    "email": "xeho91@pm.me",
+    "url": "https://xeho91.com/"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/xeho91/configurations/tree/main/packages/prettier-config",
+  "repository": "xeho91/configurations.git",
+  "bugs": "https://github.com/xeho91/configurations/issues",
+  "engines": {
+    "node": ">=14"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "peerDependencies": {
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "prettier-plugin-svelte": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2.3.2",
+    "@xeho91/helpers": "workspace:*"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf \"./dist\"",
+    "dev": "tsc --watch",
+    "format": "dprint fmt \"./source/**/*\"",
+    "lint:js": "eslint \"./source/**/*.{js,cjs,mjs,ts}\"",
+    "lint:md": "markdownlint --config \"../../.markdownlint.json\" \"**/*.md\" --ignore \"./node_modules/\"",
+    "release": "semantic-release"
+  }
+}
