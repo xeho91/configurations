@@ -102,6 +102,7 @@ you please mind sharing? Thank you!
 | @xeho91/[commitlint-config] | [![commitlint-config version shield]][commitlint-config package URL] | [![commitlint-config package shield]][commitlint-config package URL] | [![commitlint-config dependencies shield]][commitlint-config dependencies URL] |
 | @xeho91/[dprint-config] | [![dprint-config version shield]][dprint-config package URL] | [![dprint-config package shield]][dprint-config package URL] | [![dprint-config dependencies shield]][dprint-config dependencies URL] |
 | @xeho91/[eslint-config] | [![eslint-config version shield]][eslint-config package URL] | [![eslint-config package shield]][eslint-config package URL] | [![eslint-config dependencies shield]][eslint-config dependencies URL] |
+| @xeho91/[lint-staged-config] | [![lint-staged-config version shield]][lint-staged-config package URL] | [![lint-staged-config package shield]][lint-staged-config package URL] | [![lint-staged-config dependencies shield]][lint-staged-config dependencies URL] |
 | @xeho91/[markdownlint-config] | [![markdownlint-config version shield]][markdownlint-config package URL] | [![markdownlint-config package shield]][markdownlint-config package URL] | [![markdownlint-config dependencies shield]][markdownlint-config dependencies URL] |
 | @xeho91/[prettier-config] | [![prettier-config version shield]][prettier-config package URL] | [![prettier-config package shield]][prettier-config package URL] | [![prettier-config dependencies shield]][prettier-config dependencies URL] |
 | @xeho91/[stylelint-config] | [![stylelint-config version shield]][stylelint-config package URL] | [![stylelint-config package shield]][stylelint-config package URL] | [![stylelint-config dependencies shield]][stylelint-config dependencies URL] |
@@ -126,6 +127,13 @@ you please mind sharing? Thank you!
 [eslint-config package URL]: https://www.npmjs.com/package/@xeho91/eslint-config
 [eslint-config dependencies shield]: https://img.shields.io/librariesio/release/npm/@xeho91/eslint-config?style=flat-square
 [eslint-config dependencies URL]: https://libraries.io/npm/@xeho91%2Feslint-config "Dependencies status"
+
+[lint-staged-config]: ./packages/lint-staged-config
+[lint-staged-config version shield]: https://img.shields.io/npm/v/@xeho91/lint-staged-config?style=flat-square
+[lint-staged-config package shield]: https://img.shields.io/bundlephobia/minzip/@xeho91/lint-staged-config?style=flat-square
+[lint-staged-config package URL]: https://www.npmjs.com/package/@xeho91/lint-staged-config
+[lint-staged-config dependencies shield]: https://img.shields.io/librariesio/release/npm/@xeho91/lint-staged-config?style=flat-square
+[lint-staged-config dependencies URL]: https://libraries.io/npm/@xeho91%2Flint-staged-config "Dependencies status"
 
 [markdownlint-config]: ./packages/markdownlint-config
 [markdownlint-config version shield]: https://img.shields.io/npm/v/@xeho91/markdownlint-config?style=flat-square
