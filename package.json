@@ -37,6 +37,7 @@
 		"@xeho91/eslint-config": "^0.6.0",
 		"@xeho91/prettier-config": "^0.2.0",
 		"commitlint": "^13.1.0",
+		"deepmerge": "^4.2.2",
 		"eslint": "^7.32.0",
 		"gacp": "^2.10.2",
 		"husky": "^7.0.1",
