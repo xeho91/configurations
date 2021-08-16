@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "private": true,
+  "name": "@xeho91/helpers",
+  "version": "0.1.0",
+  "author": {
+    "name": "Mateusz Kadlubowski",
+    "email": "xeho91@pm.me",
+    "url": "https://xeho91.com/"
+  },
+  "homepage": "https://github.com/xeho91/configurations",
+  "repository": "xeho91/configurations.git",
+  "bugs": "https://github.com/xeho91/configurations/issues",
+  "engines": {
+    "node": ">=14"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf \"./dist\"",
+    "dev": "tsc --watch",
+    "format": "prettier --write \"source/**/*\"",
+    "lint": "eslint \"./source/**/*.ts\""
+  }
+}
