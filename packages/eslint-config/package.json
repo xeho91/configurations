@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "publishConfig": {
+    "registry": " https://registry.npmjs.org",
+    "access": "public"
+  },
+  "name": "@xeho91/eslint-config",
+  "version": "1.0.0",
+  "description": "xeho91's ESLint extendable configuration.",
+  "keywords": [
+    "ESLint",
+    "linter",
+    "config",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Svelte",
+    "Vue"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/xeho91/configurations/tree/main/packages/eslint-config",
+  "repository": "xeho91/configurations.git",
+  "bugs": "https://github.com/xeho91/configurations/issues",
+  "engines": {
+    "node": ">=14"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "peerDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint-define-config": "^1.0.9",
+    "eslint-plugin-compat": "^3.12.0",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-markdown": "^2.2.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react-native": "^3.11.0",
+    "eslint-plugin-react-redux": "^3.3.2",
+    "eslint-plugin-regexp": "^1.0.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "eslint-plugin-unicorn": "^35.0.0",
+    "eslint-plugin-vue": "^7.16.0",
+    "eslint-plugin-xss": "^0.1.10"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7.28.0",
+    "@xeho91/helpers": "workspace:*"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf \"./dist\"",
+    "dev": "tsc --watch",
+    "format": "dprint fmt \"./source/**/*\"",
+    "lint:js": "eslint \"./source/**/*.{js,cjs,mjs,ts}\"",
+    "lint:md": "markdownlint --config \"../../.markdownlint.json\" \"**/*.md\" --ignore \"./node_modules/\"",
+    "release": "semantic-release"
+  }
+}

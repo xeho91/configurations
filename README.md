@@ -99,6 +99,14 @@ you please mind sharing? Thank you!
 
 | Package name | version | Package size | Dependencies status |
 | ------------ | ------- | ------------ | ------------------- |
+| @xeho91/[eslint-config] | [![eslint-config version shield]][eslint-config package URL] | [![eslint-config package shield]][eslint-config package URL] | [![eslint-config dependencies shield]][eslint-config dependencies URL] |
+
+[eslint-config]: ./packages/eslint-config
+[eslint-config version shield]: https://img.shields.io/npm/v/@xeho91/eslint-config?style=flat-square
+[eslint-config package shield]: https://img.shields.io/bundlephobia/minzip/@xeho91/eslint-config?style=flat-square
+[eslint-config package URL]: https://www.npmjs.com/package/@xeho91/eslint-config
+[eslint-config dependencies shield]: https://img.shields.io/librariesio/release/npm/@xeho91/eslint-config?style=flat-square
+[eslint-config dependencies URL]: https://libraries.io/npm/@xeho91%2Feslint-config "Dependencies status"
 
 ---
 
