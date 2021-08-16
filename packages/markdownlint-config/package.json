@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "publishConfig": {
+    "registry": " https://registry.npmjs.org",
+    "access": "public"
+  },
+  "name": "@xeho91/markdownlint-config",
+  "version": "1.0.0",
+  "description": "xeho91's markdownlint extendable configuration.",
+  "keywords": [
+    "config",
+    "linter",
+    "markdownlint"
+  ],
+  "author": {
+    "name": "Mateusz Kadlubowski",
+    "email": "xeho91@pm.me",
+    "url": "https://xeho91.com/"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/xeho91/configurations/tree/main/packages/markdownlint-config",
+  "repository": "xeho91/configurations.git",
+  "bugs": "https://github.com/xeho91/configurations/issues",
+  "engines": {
+    "node": ">=14"
+  },
+  "main": "markdownlint.json",
+  "peerDependencies": {
+    "markdownlint": "^0.23.1"
+  },
+  "scripts": {
+    "lint:md": "markdownlint --config \"../../.markdownlint.json\" \"**/*.md\" --ignore \"./node_modules/\"",
+    "release": "semantic-release"
+  }
+}
