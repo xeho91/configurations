@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "publishConfig": {
+    "registry": " https://registry.npmjs.org",
+    "access": "public"
+  },
+  "name": "@xeho91/dprint-config",
+  "version": "1.0.0",
+  "description": "Extendable dprint configuration from xeho91.",
+  "keywords": [
+    "config",
+    "formatter",
+    "dprint"
+  ],
+  "author": {
+    "name": "Mateusz Kadlubowski",
+    "email": "xeho91@pm.me",
+    "url": "https://xeho91.com/"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/xeho91/configurations/tree/main/packages/dprint-config",
+  "repository": "xeho91/configurations.git",
+  "bugs": "https://github.com/xeho91/configurations/issues",
+  "engines": {
+    "node": ">=14"
+  },
+  "main": "dprint.json",
+  "peerDependencies": {
+    "dprint": "^0.15.4"
+  },
+  "scripts": {
+    "lint:md": "markdownlint --config \"../../.markdownlint.json\" \"**/*.md\" --ignore \"./node_modules/\"",
+    "release": "semantic-release"
+  }
+}
