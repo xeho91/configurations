@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "publishConfig": {
+    "registry": " https://registry.npmjs.org",
+    "access": "public"
+  },
+  "name": "@xeho91/stylelint-config",
+  "version": "1.0.0",
+  "description": "xeho91's Stylelint extendable configuration.",
+  "keywords": [
+    "Stylelint",
+    "linter",
+    "config",
+    "CSS",
+    "SCSS",
+    "Sass",
+    "Svelte",
+    "Vue"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/xeho91/configurations/tree/main/packages/stylelint-config",
+  "repository": "xeho91/configurations.git",
+  "bugs": "https://github.com/xeho91/configurations/issues",
+  "engines": {
+    "node": ">=14"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "peerDependencies": {
+    "stylelint": "^13.0.0"
+  },
+  "dependencies": {
+    "stylelint-8-point-grid": "^1.0.0",
+    "stylelint-a11y": "^1.2.3",
+    "stylelint-color-format": "^1.1.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.4.0",
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-declaration-strict-value": "^1.7.12",
+    "stylelint-declaration-use-variable": "^1.7.3",
+    "stylelint-high-performance-animation": "^1.5.2",
+    "stylelint-no-unsupported-browser-features": "^5.0.1",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.20.1"
+  },
+  "devDependencies": {
+    "@types/stylelint": "^13.13.1",
+    "@xeho91/helpers": "workspace:*"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf \"./dist\"",
+    "dev": "tsc --watch",
+    "format": "dprint fmt \"./source/**/*\"",
+    "lint:js": "eslint \"./source/**/*.{js,cjs,mjs,ts}\"",
+    "lint:md": "markdownlint --config \"../../.markdownlint.json\" \"**/*.md\" --ignore \"./node_modules/\"",
+    "release": "semantic-release"
+  }
+}

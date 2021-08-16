@@ -101,6 +101,7 @@ you please mind sharing? Thank you!
 | ------------ | ------- | ------------ | ------------------- |
 | @xeho91/[eslint-config] | [![eslint-config version shield]][eslint-config package URL] | [![eslint-config package shield]][eslint-config package URL] | [![eslint-config dependencies shield]][eslint-config dependencies URL] |
 | @xeho91/[prettier-config] | [![prettier-config version shield]][prettier-config package URL] | [![prettier-config package shield]][prettier-config package URL] | [![prettier-config dependencies shield]][prettier-config dependencies URL] |
+| @xeho91/[stylelint-config] | [![stylelint-config version shield]][stylelint-config package URL] | [![stylelint-config package shield]][stylelint-config package URL] | [![stylelint-config dependencies shield]][stylelint-config dependencies URL] |
 
 [eslint-config]: ./packages/eslint-config
 [eslint-config version shield]: https://img.shields.io/npm/v/@xeho91/eslint-config?style=flat-square
@@ -115,6 +116,13 @@ you please mind sharing? Thank you!
 [prettier-config package URL]: https://www.npmjs.com/package/@xeho91/prettier-config
 [prettier-config dependencies shield]: https://img.shields.io/librariesio/release/npm/@xeho91/prettier-config?style=flat-square
 [prettier-config dependencies URL]: https://libraries.io/npm/@xeho91%2Fprettier-config "Dependencies status"
+
+[stylelint-config]: ./packages/stylelint-config
+[stylelint-config version shield]: https://img.shields.io/npm/v/@xeho91/stylelint-config?style=flat-square
+[stylelint-config package shield]: https://img.shields.io/bundlephobia/minzip/@xeho91/stylelint-config?style=flat-square
+[stylelint-config package URL]: https://www.npmjs.com/package/@xeho91/stylelint-config
+[stylelint-config dependencies shield]: https://img.shields.io/librariesio/release/npm/@xeho91/stylelint-config?style=flat-square
+[stylelint-config dependencies URL]: https://libraries.io/npm/@xeho91%2Fstylelint-config "Dependencies status"
 
 ---
 
