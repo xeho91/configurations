@@ -1,0 +1,10 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"types": ["@commitlint/types", "node"],
+		"outDir": "./dist/"
+	},
+	"include": ["source/**/*"],
+	"exclude": ["node_modules/"]
+}

@@ -99,10 +99,18 @@ you please mind sharing? Thank you!
 
 | Package name | version | Package size | Dependencies status |
 | ------------ | ------- | ------------ | ------------------- |
+| @xeho91/[commitlint-config] | [![commitlint-config version shield]][commitlint-config package URL] | [![commitlint-config package shield]][commitlint-config package URL] | [![commitlint-config dependencies shield]][commitlint-config dependencies URL] |
 | @xeho91/[eslint-config] | [![eslint-config version shield]][eslint-config package URL] | [![eslint-config package shield]][eslint-config package URL] | [![eslint-config dependencies shield]][eslint-config dependencies URL] |
 | @xeho91/[markdownlint-config] | [![markdownlint-config version shield]][markdownlint-config package URL] | [![markdownlint-config package shield]][markdownlint-config package URL] | [![markdownlint-config dependencies shield]][markdownlint-config dependencies URL] |
 | @xeho91/[prettier-config] | [![prettier-config version shield]][prettier-config package URL] | [![prettier-config package shield]][prettier-config package URL] | [![prettier-config dependencies shield]][prettier-config dependencies URL] |
 | @xeho91/[stylelint-config] | [![stylelint-config version shield]][stylelint-config package URL] | [![stylelint-config package shield]][stylelint-config package URL] | [![stylelint-config dependencies shield]][stylelint-config dependencies URL] |
+
+[commitlint-config]: ./packages/commitlint-config
+[commitlint-config version shield]: https://img.shields.io/npm/v/@xeho91/commitlint-config?style=flat-square
+[commitlint-config package shield]: https://img.shields.io/bundlephobia/minzip/@xeho91/commitlint-config?style=flat-square
+[commitlint-config package URL]: https://www.npmjs.com/package/@xeho91/commitlint-config
+[commitlint-config dependencies shield]: https://img.shields.io/librariesio/release/npm/@xeho91/commitlint-config?style=flat-square
+[commitlint-config dependencies URL]: https://libraries.io/npm/@xeho91%2Fcommitlint-config "Dependencies status"
 
 [eslint-config]: ./packages/eslint-config
 [eslint-config version shield]: https://img.shields.io/npm/v/@xeho91/eslint-config?style=flat-square
