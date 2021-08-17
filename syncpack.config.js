@@ -1,7 +1,7 @@
 const config = {
 	dev: true,
 	filter: ".",
-	indent: "  ",
+	indent: "\t",
 	peer: true,
 	prod: true,
 	semverRange: "^",

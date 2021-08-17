@@ -2,7 +2,6 @@
 	"$schema": "https://json.schemastore.org/package",
 	"private": true,
 	"name": "configurations",
-	"version": "0.0.0-development",
 	"author": {
 		"name": "Mateusz Kadlubowski",
 		"email": "xeho91@pm.me",
@@ -15,27 +14,15 @@
 	"engines": {
 		"node": ">=14"
 	},
-	"scripts": {
-		"build": "tsc",
-		"commit": "gacp",
-		"format": "prettier --write \"source/*/**\"",
-		"lint": "run-p lint:*",
-		"lint:commits": "commitlint --from \"develop\" --to \"HEAD\"",
-		"lint:ls": "ls-lint",
-		"lint:js": "eslint \"source/**/*.{js,cjs,mjs,ts}\"",
-		"lint:staged": "lint-staged --verbose",
-		"lint:ts": "tsc --project \"tsconfig.json\" --noEmit",
-		"prepare": "husky install",
-		"release": "semantic-release"
-	},
 	"devDependencies": {
 		"@ls-lint/ls-lint": "^1.10.0",
 		"@semantic-release/changelog": "^5.0.1",
 		"@semantic-release/git": "^9.0.0",
 		"@types/node": "^16.4.13",
-		"@xeho91/commitlint-config": "^0.1.0",
-		"@xeho91/eslint-config": "^0.6.0",
-		"@xeho91/prettier-config": "^0.2.0",
+		"@xeho91/commitlint-config": "workspace:*",
+		"@xeho91/eslint-config": "workspace:*",
+		"@xeho91/lint-staged-config": "workspace:*",
+		"@xeho91/prettier-config": "workspace:*",
 		"commitlint": "^13.1.0",
 		"deepmerge": "^4.2.2",
 		"eslint": "^7.32.0",
@@ -49,5 +36,18 @@
 		"syncpack": "^5.8.15",
 		"tslib": "^2.3.0",
 		"typescript": "^4.3.5"
+	},
+	"scripts": {
+		"build": "tsc",
+		"commit": "gacp",
+		"format": "pnpm format -- filter \"./packages\"",
+		"lint": "run-p lint:*",
+		"lint:commits": "commitlint --from \"develop\" --to \"HEAD\"",
+		"lint:js": "pnpm lint:js --filter \"./packages\"",
+		"lint:ls": "ls-lint",
+		"lint:staged": "lint-staged --verbose",
+		"lint:ts": "pnpm lint:ts --filter \"./packages\"",
+		"prepare": "husky install",
+		"release": "semantic-release"
 	}
 }
