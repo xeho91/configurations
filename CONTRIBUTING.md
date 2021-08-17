@@ -254,6 +254,7 @@ The following scripts are available for this project:
   - [`pnpm lint:commits`](#pnpm-lintcommits)
   - [`pnpm lint:js`](#pnpm-lintjs)
   - [`pnpm lint:ls`](#pnpm-lintls)
+  - [`pnpm lint:md`](#pnpm-lintmd)
   - [`pnpm lint:staged`](#pnpm-lintstaged)
   - [`pnpm lint:ts`](#pnpm-lintts)
 - [`pnpm prepare`](#pnpm-prepare)
@@ -329,6 +330,16 @@ extension with [ls-lint].
 The [ls-lint] configuration is in the [.ls-lint.yml](./.ls-lint.yml) file.
 
 [ls-lint]: https://ls-lint.org/
+
+#### `pnpm lint:md`
+
+**Analyzes the markdown files** to find issues, including styling with
+[markdownlint].
+
+The [markdownlint] configuration is in the
+[.markdownlint.json](./.markdownlint.json) file.
+
+[markdownlint]: https://github.com/DavidAnson/markdownlint
 
 #### `pnpm lint:staged`
 
